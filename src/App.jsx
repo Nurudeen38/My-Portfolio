@@ -7,6 +7,7 @@ import MobileLayout from "@/components/templates/MobileLayout";
 import Header from "@/components/organisms/Header";
 import { Helmet } from "react-helmet";
 import LoadingSpinner from "@/components/atoms/LoadingSpinner";
+import { Analytics } from "@vercel/analytics/react";
 
 const Work = lazy(() => import("./pages/Work"));
 const Resume = lazy(() => import("./pages/Resume"));
@@ -68,6 +69,7 @@ const App = () => {
         <meta property='twitter:title' content='Nurudeen Yekeen Portfolio' />
         <meta property='twitter:description' content='Frontend Developer' />
       </Helmet>
+      <Analytics />
       <Router>
         <Suspense fallback={<LoadingSpinner />}>
           <Switch>
