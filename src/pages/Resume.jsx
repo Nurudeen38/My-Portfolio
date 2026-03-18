@@ -24,7 +24,7 @@ const Resume = ({ activeMenu }) => {
               </small>
             </a>
             <a
-              href="https://drive.google.com/file/d/1lPcVtumTKHZfShVxuYf6MfM9ly4ONZBj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IRIuUeJLbrAy1iEV_ZHx0guPqjuRP6gW/view"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ const Resume = ({ activeMenu }) => {
 
         <div className="summary">
           <p>
-            I’m a Senior Frontend software developer, passionate about transforming
+            I’m a Senior Frontend software engineer, passionate about transforming
             ideas from pixels to scalable products. I create functional
             applications with user experience as top priority.
           </p>
@@ -52,7 +52,7 @@ const Resume = ({ activeMenu }) => {
 
         <div className="skills">
           <p>
-            HTML/CSS, SASS, Javascript [ES6], React Js, React Native,Next Js, Angular,
+            HTML/CSS, SASS, Javascript [ES6], React Js, React Native, Next Js, Angular,
             CSS-in-JS, GraphQL, Redux,Tailwind,Gatsby,Remix,Typescript.
           </p>
         </div>
