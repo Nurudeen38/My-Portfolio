@@ -53,7 +53,7 @@ const Resume = ({ activeMenu }) => {
         <div className="skills">
           <p>
             HTML/CSS, SASS, Javascript [ES6], React Js, React Native, Next Js, Angular,
-            CSS-in-JS, GraphQL, Redux,Tailwind,Gatsby,Remix,Typescript.
+            CSS-in-JS, GraphQL, Redux, Tailwind, Gatsby, Remix, Typescript.
           </p>
         </div>
 
