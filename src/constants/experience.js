@@ -9,7 +9,7 @@ export const experiences = [
       "Served as a Senior Frontend Engineer, leading the development and optimization of high-impact digital banking platforms.",
     achievements: [
       "Led the development and enhancement of critical user journeys across multiple digital banking platforms, delivering seamless and secure experiences that supported high user retention and operational efficiency.",
-      "Architected and implemented scalable, reusable, and maintainable UI components using Angular (v2+), resulting in reduced development time across multiple projects.",
+      "Architected and implemented scalable, reusable, and maintainable UI components using Angular (v2+) & React, resulting in reduced development time across multiple projects.",
       "Designed and developed responsive, mobile-first interfaces for key banking applications, directly contributing to a 25% increase in customer satisfaction (based on post-release UX metrics).",
       "Collaborated cross-functionally with product managers, UX/UI designers, and backend engineers to translate business requirements into intuitive digital solutions, ensuring high usability and stakeholder alignment.",
       "Enforced WCAG and ARIA accessibility standards, enabling inclusive digital access for users with disabilities and aligning platforms with international compliance requirements.",
