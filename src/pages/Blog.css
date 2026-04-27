@@ -19,7 +19,7 @@
   font-weight: 700;
   color: #fff;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #a3a3a3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -44,7 +44,8 @@
 }
 
 .featured_article {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1f1f22 0%, #16161a 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   color: white;
   padding: 3rem;
   border-radius: 16px;
@@ -55,12 +56,13 @@
 
 .featured_article:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
 .featured_badge {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -92,7 +94,9 @@
 }
 
 .featured_article .meta span {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #a3a3a3;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -160,13 +164,14 @@
 
 .blog_post:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
-  border-color: #667eea;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  border-color: #555;
 }
 
 .post_category {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.8rem;

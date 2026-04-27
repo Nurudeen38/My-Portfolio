@@ -6,8 +6,8 @@ import { articles } from "@/constants/articles";
 const ArticleDetail = () => {
     const { id } = useParams();
 
-    const article = articles.find(art => art.id === parseInt(id));
-    const currentIndex = articles.findIndex(art => art.id === parseInt(id));
+    const article = articles.find(art => art.id === id);
+    const currentIndex = articles.findIndex(art => art.id === id);
     const hasNext = currentIndex !== -1 && currentIndex < articles.length - 1;
     const nextArticle = hasNext ? articles[currentIndex + 1] : null;
 
