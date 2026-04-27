@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@prerenderer/renderer-jsdom": "^1.1.9",
     "@sparticuz/chromium": "^147.0.2",
     "@vercel/analytics": "^1.6.1",
     "@vitejs/plugin-react": "^5.0.2",
