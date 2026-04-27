@@ -8,14 +8,6 @@ export default defineConfig(async ({ mode }) => {
   // Determine if we are running in a CI/Vercel environment
   const isVercel = process.env.VERCEL === "1";
 
-  const puppeteerOptions = isVercel
-    ? {
-        args: [...chromium.args, "--no-sandbox", "--disable-setuid-sandbox"],
-        executablePath: await chromium.executablePath(),
-        headless: chromium.headless,
-      }
-    : {};
-
   return {
     plugins: [
       react(),
@@ -31,7 +23,13 @@ export default defineConfig(async ({ mode }) => {
         },
         // Puppeteer settings for Serverless compatibility
         renderOptions: {
-          launchOptions: puppeteerOptions,
+          launchOptions: isVercel
+            ? {
+                args: chromium.args,
+                executablePath: await chromium.executablePath(),
+                headless: chromium.headless,
+              }
+            : {}, // Uses default local chrome in development
         },
       }),
     ],
