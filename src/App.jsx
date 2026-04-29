@@ -144,7 +144,7 @@ const App = () => {
                         )}
                       />
 
-                      <Route component={Error} />
+                      <Route path="/**" component={Error} />
                     </Switch>
                   </Suspense>
                 </div>
